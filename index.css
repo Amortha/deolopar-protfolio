@@ -1,5 +1,7 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 .Amitsharmacolor{
     color:orange;
@@ -7,7 +9,7 @@ body{
 h1{
     font-size: 50px;
 }
-section{
+.flexgibal-continar{
     display: flex;
 }
 .half-width{
@@ -24,4 +26,41 @@ section{
     color: white;
     border-radius: 5px;
     text-decoration: none;
+}
+.top-banar{
+    background-image:url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.Drim-big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position:right;
+}
+.Expariance-manu{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+}
+.Expariance-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#baby-deblopar{
+    border-left:7px solid;
+    border-image:linear-gradient(blue,cyan);
+    border-image-slice:1;
+}
+#Full-stack{
+    border-left:7px solid;
+    border-image:linear-gradient(purple,tomato);
+    border-image-slice:1;
+}
+footer p{
+    text-align: center;
+    padding: 50px;
+color: magenta;
 }
